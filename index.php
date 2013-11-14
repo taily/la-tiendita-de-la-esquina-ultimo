@@ -1,4 +1,7 @@
-﻿<?php session_start()?>
+﻿<?php session_start();
+include 'procesos/config.php';
+include 'procesos/funciones.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
    <header>

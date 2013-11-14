@@ -32,9 +32,9 @@
 		 <div id="datoUsuario" class="pull-left">
 		 <?php if(isset($_SESSION["autenticado"])){
 		 if($_SESSION["autenticado"]==true){?>
-		 <p id="welcomeUsername">Bienvenido,<span id="username">
+		 <p id="welcomeUsername">Bienvenido,<span id="username"><a href="index.php?pag=detalle">
 		<?php echo $_SESSION["razonSocial"];?>
-			</span><p/>
+			</a></span><p/>
 		<?php }
 		} ?>
 		 </div>		 

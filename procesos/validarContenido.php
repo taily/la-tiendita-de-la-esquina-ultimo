@@ -10,6 +10,12 @@
 				case 'registrate': //Registrarse
 					$address='pags/registrarAcceder/registrate.php';
 				break;
+				case 'actualizar': //Actualizar datos
+					$address='pags/registrarAcceder/actualizar.php';
+				break;
+				case 'detalle': //Actualizar datos
+					$address='pags/registrarAcceder/detalle.php';
+				break;
 				case 'acceder': //Acceder
 					$address='pags/registrarAcceder/formularioLoginRegistro.php';
 				break;
